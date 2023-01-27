@@ -1,5 +1,5 @@
-﻿
-string[] stringArray = { "string", "ar44r", "n444ew", "1444", "array", "2345", "r444t" };
+﻿// Программа которая из имеющегося массива строк формирует массив из строк, длина которых меньше либо равна 3 символа
+string[] stringArray = { "string", "arr", "new", "1", "array", "2345", "rt" };
 int stringLength = 3;
 PrintArray(stringArray);
 string[] newArr = generatesNewArrayOfStringsGivenLength(stringArray, stringLength);
